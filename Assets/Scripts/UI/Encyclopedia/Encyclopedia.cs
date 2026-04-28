@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -277,9 +276,10 @@ public class Encyclopedia : MonoBehaviour, IOverlayMenu
         return new ReadOnlyDictionary<FishDefinition, CaughtFish>(_fishProgress);
     }
 
-    public ICollection<BaitDefinition> RetrieveBaitProgress()
+    public BaitDefinition[] RetrieveBaitProgress()
     {
-        return _baitProgress.AsReadOnlyCollection();
+        //return _baitProgress.AsReadOnlyCollection();
+        return _baitProgress;
     }
 
     public int ReturnCaughtAmount()
