@@ -15014,7 +15014,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2932670158873799921, guid: 981bdd517f23da446a30a09199213a5d, type: 3}
       propertyPath: m_fontSize
-      value: 43.7
+      value: 46.75
       objectReference: {fileID: 0}
     - target: {fileID: 2932670158873799921, guid: 981bdd517f23da446a30a09199213a5d, type: 3}
       propertyPath: m_fontAsset
